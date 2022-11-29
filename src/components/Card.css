@@ -1,0 +1,17 @@
+.row{
+    display: grid;
+    grid-template-columns: repeat(auto-fill, minmax(min(15rem, 100%), 1fr));
+}
+.container{
+    margin-left: 10%;
+    margin-right: 10%;
+}
+.col button{
+    background-color: blue;
+    color: white;
+    border: none;
+    height: 30px;
+    border-radius: 5px;
+    margin-bottom: 10px;
+    cursor: pointer;
+}
